@@ -12,3 +12,18 @@ USB repair tool for recovering hidden files, fixing write protection and restori
 - Detect missing USB devices
 - Restore damaged USB drives
 - Erase and recreate USB partitions
+
+- ## Test Results
+
+| Scenario | Status |
+|----------|--------|
+| Hidden files recovery | ✅ PASS |
+| Soft write protection | ✅ PASS |
+| Dirty Bit repair | ✅ PASS |
+| Missing drive letter | ✅ PASS |
+| RAW USB repair | ✅ PASS |
+| Deleted partition recovery | ✅ PASS |
+| Linux USB restoration | ✅ PASS |
+| USB rescan | ✅ PASS |
+| Disabled Device Manager device | ⚠ Not Supported |
+| Hardware write protection | ⚠ Not Supported |
